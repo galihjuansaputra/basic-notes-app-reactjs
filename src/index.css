@@ -89,19 +89,10 @@ body{
 .submit{
     color: white;
     height: 2rem;
-    width: 50%;
+    width: 100%;
     background-color: #22c55e;
     cursor: pointer;
 }
-
-.reset{
-    color: white;
-    height: 2rem;
-    width: 50%;
-    background-color: #c52222;
-    cursor: pointer;
-}
-
 
 .header{
     background-color: rgb(30, 30, 30);    
