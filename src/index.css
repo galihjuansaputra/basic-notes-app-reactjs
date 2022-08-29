@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    border: 0;
+    margin:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing:border-box;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+    color: rgb(255, 200, 0);
+}
+
+h2{
+    color: white;
+}
+
+body{
+    background-color: rgb(18, 18, 18);
+}
+
+.footer{
+    background-color: rgb(18, 18, 18);
+}
+
+.footer p{
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.hapus{
+    color: white;
+    height: 2rem;
+    width: 100%;
+    background-color: #c52222;
+    cursor: pointer;
+}
+
+.noteslist{
+    background-color: rgb(30, 30, 30); 
+    color: white;
+}
+
+.notes-body{
+    overflow-y: scroll;
+    width: auto;
+    height: 16rem;
+    margin-top: 1rem;
+}
+
+.notes-tanggal{
+    font-style: italic;
+    color: rgb(139, 139, 139);
+}
+
+.notes-cards{
+    display: inline-block;
+    width: 18rem;
+    height: 24rem;
+    border: solid 1px white;
+    padding: 0.75rem;
+    margin-right: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.addnotes{
+    background-color: rgb(18, 18, 18);
+}
+
+.notesform{
+    width: 20rem;
+}
+
+.textbox{
+    padding: 0.5rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.textarea{
+    padding: 0.5rem;
+    width: 100%;
+    height: 10rem;
+    margin-top: 1rem;
+    resize: none;
+}
+
+.submit{
+    color: white;
+    height: 2rem;
+    width: 50%;
+    background-color: #22c55e;
+    cursor: pointer;
+}
+
+.reset{
+    color: white;
+    height: 2rem;
+    width: 50%;
+    background-color: #c52222;
+    cursor: pointer;
+}
+
+
+.header{
+    background-color: rgb(30, 30, 30);    
+}
+
+.container {
+    padding: 1.25rem;
 }
